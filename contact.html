@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="coding logo.jpg" type="img/x-icon" rel="icon" />
+    <title>Contact</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="Tourism in Jordan,Guidance" />
+    <meta name="author" content="zaid" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(247, 247, 243);
+        margin: auto;
+      }
+
+      a {
+        font-size: 25px;
+        width: 100px;
+        text-decoration: none;
+        color: white;
+        padding-top: 6px;
+        padding-bottom: 11px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 0px;
+      }
+      a fieldset {
+        text-align: center;
+      }
+      a:hover {
+        background-color: rgb(87, 86, 86);
+      }
+
+      input[type="text"],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+      input[type="email"] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+      }
+
+      input[type="submit"] {
+        background-color: #04aa6d;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #09690d;
+      }
+
+      input[type="reset"] {
+        background-color: #db0f2a;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="reset"]:hover {
+        background-color: #700404;
+      }
+    </style>
+  </head>
+  <body dir="rtl">
+    <p style="text-align: right; font-size: 50px; margin: 10px">
+      <b>ارشدني</b>
+    </p>
+    <fieldset style="border-width: 1px; background-color: rgb(57, 56, 56)">
+      <a href="home.html">الصفحة الرئسية</a>
+      <a href="m3alm.html">المواقع السياحية</a>
+      <a href="advice.html">نصائح السفر</a>
+      <a href="contact.html">تواصل معنا</a>
+    </fieldset>
+    <h1 style="text-align: center">تواصل معنا</h1>
+    <fieldset
+      style="
+        border-width: 15px;
+        background-color: rgb(252, 252, 252);
+        width: 50%;
+
+        border-color: wheat;
+        margin: 350px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+      "
+    >
+      <legend style="color: rgb(3, 3, 3)">
+        <b style="font-size: 20pt">ارسل لنا رسالة</b>
+      </legend>
+      <form>
+        <label for="name" style="font-size: 20pt">الاسم</label>
+        <input
+          autofocus
+          name="name"
+          type="text"
+          id="name"
+          placeholder="ادخل اسمك"
+        />
+        <br /><br />
+        <label for="Email" style="font-size: 20pt">البريد الالكتروني</label>
+        <input name="email" type="email" id="Email" placeholder="ادخل البريد" />
+        <br /><br />
+        <label for="area" style="font-size: 20pt">رسالتك</label>
+        <br />
+
+        <textarea namw="text" id="area" cols="70" rows="20"> </textarea>
+        <br />
+        <input type="submit" value="ارسال" />
+        <input type="reset" value="reset" />
+      </form>
+    </fieldset>
+  </body>
+</html>
